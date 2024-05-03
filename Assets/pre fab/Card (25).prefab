@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4833659974395627463}
   - component: {fileID: 8237641282439044263}
   - component: {fileID: -8098761099311202010}
+  - component: {fileID: 4624253025902882410}
   m_Layer: 0
   m_Name: Card (25)
   m_TagString: Untagged
@@ -103,6 +104,7 @@ MonoBehaviour:
   TipoDecarta: plata
   Descripcion: aumenta el poder de la fila de largo alcance en 1
   PosicionCampo: largo
+  hab: 5
 --- !u!114 &-8098761099311202010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +118,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poder: 3
+--- !u!114 &4624253025902882410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546897315641196088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913f9babdbfaf9d45bebf5bfc0b11863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck: {fileID: 0}

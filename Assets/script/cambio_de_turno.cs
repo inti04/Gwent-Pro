@@ -6,13 +6,14 @@ public class cambio_de_turno : MonoBehaviour
 {
     private bool camara1 = true;
     
-    public GameObject Game,Panel;
+    public GameObject Game,Panel,boton;
     public GameManager gameManager;
     private void Start()
     {
         gameManager= GameObject.FindGameObjectWithTag("manager").GetComponent<GameManager>();
     }
 
+    //funcion que cambia el turno y rota todo la escena
     public void CambioDeTurno()
     {      
         if (camara1 && !gameManager.turn1)
@@ -21,6 +22,11 @@ public class cambio_de_turno : MonoBehaviour
             {
                 gameManager.turno = 2;               
                 Game.transform.Rotate(new Vector3(0, 0, 180));
+                if(gameManager.inicio2)
+                {
+                    boton.GetComponent<Boton_inicio>().num = 1;
+                    boton.SetActive(true);
+                }
             }
             if (!gameManager.jugada)
             {

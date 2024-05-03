@@ -103,6 +103,7 @@ MonoBehaviour:
   TipoDecarta: oro
   Descripcion: limpia la fila del campo con menos cartas
   PosicionCampo: medio
+  hab: 1
 --- !u!114 &7492892281260299220
 MonoBehaviour:
   m_ObjectHideFlags: 0

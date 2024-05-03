@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4554426912343914093}
   - component: {fileID: 4607694218615234528}
   - component: {fileID: -1531712463029022080}
+  - component: {fileID: 6090792350672532661}
   m_Layer: 0
   m_Name: Card (13)
   m_TagString: Untagged
@@ -103,6 +104,7 @@ MonoBehaviour:
   TipoDecarta: oro
   Descripcion: elimina la carta con menos poder del campo
   PosicionCampo: medio
+  hab: 4
 --- !u!114 &-1531712463029022080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +118,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poder: 5
+--- !u!114 &6090792350672532661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900824262651591682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18566465b714e4084bc967582747c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}

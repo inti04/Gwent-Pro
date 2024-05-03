@@ -101,7 +101,7 @@ MonoBehaviour:
   name: mewtwo
   faccion: monster
   TipoDecarta: oro
-  Descripcion: destruye la carta con menos poder del campo
+  Descripcion: 
   PosicionCampo: largo
 --- !u!114 &5745865496801813613
 MonoBehaviour:

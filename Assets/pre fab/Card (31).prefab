@@ -101,7 +101,7 @@ MonoBehaviour:
   name: evee
   faccion: monster
   TipoDecarta: plata
-  Descripcion: 'aumenta el poder en la cantidad de cartas iguales '
+  Descripcion: 
   PosicionCampo: corto
 --- !u!114 &4775619052856017950
 MonoBehaviour:

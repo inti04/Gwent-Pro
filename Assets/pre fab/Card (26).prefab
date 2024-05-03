@@ -101,8 +101,7 @@ MonoBehaviour:
   name: sableye
   faccion: monster
   TipoDecarta: oro
-  Descripcion: iguala el poder de las cartas al promedio de todas las cartas del
-    campo
+  Descripcion: 
   PosicionCampo: largo
 --- !u!114 &7302436664037116361
 MonoBehaviour:

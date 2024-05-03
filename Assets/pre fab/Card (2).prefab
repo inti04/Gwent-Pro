@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 555378953355166283}
   - component: {fileID: 6670010697809326469}
   - component: {fileID: -5413615331151444839}
+  - component: {fileID: -3416510814801818787}
   m_Layer: 0
   m_Name: Card (2)
   m_TagString: Untagged
@@ -103,6 +104,7 @@ MonoBehaviour:
   TipoDecarta: oro
   Descripcion: limpia la fila del campo con menos cartas
   PosicionCampo: medio
+  hab: 1
 --- !u!114 &-5413615331151444839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +118,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poder: 6
+--- !u!114 &-3416510814801818787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633716685325836904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290b6388cfb1d4a4088951b39801953b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck: {fileID: 0}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2705091779341765244}
   - component: {fileID: 4960669779640413741}
   - component: {fileID: 6042804411845354739}
+  - component: {fileID: 3707280896763026427}
   m_Layer: 0
   m_Name: Card (28)
   m_TagString: Untagged
@@ -103,6 +104,7 @@ MonoBehaviour:
   TipoDecarta: plata
   Descripcion: roba una carta
   PosicionCampo: medio
+  hab: 4
 --- !u!114 &6042804411845354739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +118,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poder: 4
+--- !u!114 &3707280896763026427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792868475039950252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5ed6e9ab4712a499cd8afc2e6c7afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 0}

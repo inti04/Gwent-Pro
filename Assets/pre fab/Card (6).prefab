@@ -101,7 +101,7 @@ MonoBehaviour:
   name: alakazam
   faccion: machine
   TipoDecarta: oro
-  Descripcion: elimina la carta con mayor poder del campo
+  Descripcion: 
   PosicionCampo: medio
 --- !u!114 &6112232113920410963
 MonoBehaviour:

@@ -101,8 +101,7 @@ MonoBehaviour:
   name: snorlax
   faccion: machine
   TipoDecarta: oro
-  Descripcion: iguala el poder de las cartas al promedio de todas las cartas del
-    campo
+  Descripcion: 
   PosicionCampo: largo
 --- !u!114 &5874745344756303987
 MonoBehaviour:

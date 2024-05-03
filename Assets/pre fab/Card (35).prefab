@@ -101,7 +101,7 @@ MonoBehaviour:
   name: krookodile
   faccion: monster
   TipoDecarta: plata
-  Descripcion: aumenta el poder de la fila de corto medio en 1
+  Descripcion: 
   PosicionCampo: corto
 --- !u!114 &-244356327579421357
 MonoBehaviour:

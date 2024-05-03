@@ -26,6 +26,7 @@ public class Clima : MonoBehaviour
     {
         if (GetComponent<RawImage>().texture != null)
         {
+            //funcion para quitar y poner poder en el campo
             manager.poder1 -= power1;
             manager.poder2 -= power2;
             power1 = 0;

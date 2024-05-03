@@ -101,7 +101,7 @@ MonoBehaviour:
   name: umbreon
   faccion: monster
   TipoDecarta: plata
-  Descripcion: aumenta el poder de la fila de largo medio en 1
+  Descripcion: 
   PosicionCampo: medio
 --- !u!114 &3278816233442659708
 MonoBehaviour:

@@ -101,7 +101,7 @@ MonoBehaviour:
   name: magnemite
   faccion: machine
   TipoDecarta: plata
-  Descripcion: 'aumenta el poder en la cantidad de cartas iguales '
+  Descripcion: 
   PosicionCampo: corto
 --- !u!114 &-6225204825303358682
 MonoBehaviour:

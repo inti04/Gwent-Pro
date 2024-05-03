@@ -15,7 +15,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI Text1, Text2,Ganador;
     public mazo mazo1, mazo2;
     public bool EndRound,End_Game,hecho,hecho2,hecho3 = false;
-    public int rondas1, rondas2 = 0;
+    public int rondas1, rondas2,cont = 0;
+    public bool inicio1,inicio2 = true;
+    public GameObject buton;
     private void Update()
     {
         if(!End_Game)
@@ -26,6 +28,7 @@ public class GameManager : MonoBehaviour
         END_GAME();
     }
 
+    //Verificar si la ronda termino y sumar puntos
     private void Round_End()
     {
         if (turn1 && turn2)
@@ -57,6 +60,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Terminar juego
     private void END_GAME()
     {
         if(rondas1 == 2)
@@ -80,6 +84,8 @@ public class GameManager : MonoBehaviour
             StopAllCoroutines();
         }
     }
+
+    //puntos en todo momento del juego
     private void Poderes()
     {
         if (turno == 1)
@@ -107,6 +113,7 @@ public class GameManager : MonoBehaviour
         StopAllCoroutines();
     }
 
+    //vaciar el campo
     public void vaciate()
     {
         for(int i = 0; i < 5; i++)

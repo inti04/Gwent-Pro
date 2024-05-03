@@ -6,4 +6,5 @@ public class cartas : MonoBehaviour
 {
     // Start is called before the first frame update
     public string name, faccion, TipoDecarta, Descripcion,PosicionCampo ;
-        }
+    public int hab;
+}

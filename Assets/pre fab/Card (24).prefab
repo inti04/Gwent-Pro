@@ -102,7 +102,7 @@ MonoBehaviour:
   name: pikachu
   faccion: monster
   TipoDecarta: plata
-  Descripcion: provoca un clima que debilita la fila de largo alcance
+  Descripcion: 
   PosicionCampo: medio
 --- !u!114 &-2145432403411184054
 MonoBehaviour:

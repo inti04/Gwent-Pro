@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 4387381760950421478}
   - component: {fileID: 3566721136783440026}
   - component: {fileID: -6855662438217243217}
+  - component: {fileID: -3619287506429163309}
   m_Layer: 0
   m_Name: New Prefab
   m_TagString: Untagged
@@ -187,8 +188,9 @@ MonoBehaviour:
   name: blastoise
   faccion: machine
   TipoDecarta: plata
-  Descripcion: aumenta el poder de la fila de corto alcance en 1
+  Descripcion: aumenta el poder de la fila de corto alcance en 5
   PosicionCampo: corto
+  hab: 1
 --- !u!114 &-6855662438217243217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +204,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poder: 3
+--- !u!114 &-3619287506429163309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7799399809138235191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd99d1fd420bc0a4ba5f8e967d70575f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck: {fileID: 0}
 --- !u!1001 &303866226632064799
 PrefabInstance:
   m_ObjectHideFlags: 0

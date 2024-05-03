@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1223122477707104150}
   - component: {fileID: 1674606573387286442}
   - component: {fileID: 167022161978078630}
+  - component: {fileID: 4115427399663327673}
   m_Layer: 0
   m_Name: Card (4)
   m_TagString: Untagged
@@ -102,3 +103,17 @@ MonoBehaviour:
   TipoDecarta: lider
   Descripcion: aumenta el poder de las cartas de la primera fila en 5
   PosicionCampo: lider
+  hab: 2
+--- !u!114 &4115427399663327673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5679927363289549768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd99d1fd420bc0a4ba5f8e967d70575f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck: {fileID: 0}

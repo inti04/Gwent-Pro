@@ -23,10 +23,10 @@ public class Aumento : MonoBehaviour
 
         if (!manager.hecho3)
         {
-            Conteo1();
+            Conteo2();
         }
     }
-
+    //Funcion para sumar y restar
     private void Conteo2()
     {
         if (deck == 2)

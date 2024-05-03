@@ -101,7 +101,7 @@ MonoBehaviour:
   name: rayquaza
   faccion: monster
   TipoDecarta: oro
-  Descripcion: elimina la carta con mas poder del campo
+  Descripcion: 
   PosicionCampo: largo
 --- !u!114 &-946826741083441652
 MonoBehaviour:
